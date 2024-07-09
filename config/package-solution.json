@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "statuswebpart-client-side-solution",
+    "id": "0a17b568-ce2a-4519-9782-5c1ed5de1af9",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.19.0"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "statuswebpart description"
+      },
+      "longDescription": {
+        "default": "statuswebpart description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "statuswebpart Feature",
+        "description": "The feature that activates elements of the statuswebpart solution.",
+        "id": "6d39630f-09ff-444d-a06a-61cbb10e0cb1",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/statuswebpart.sppkg"
+  }
+}
